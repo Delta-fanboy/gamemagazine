@@ -1,0 +1,75 @@
+.topnav { 
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.topnav a { 
+  color: #0D1821;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+.topnav a.active {    
+  background-color: rgb(226, 43, 43);
+  color: white;
+  padding-left: 42.5px;
+  padding-right: 42.5px;
+}
+
+.button {
+  background-color: rgb(226, 43, 43);
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: cloisterBlack, sans-serif;
+  text-align: center;
+  color: rgb(75, 190, 255);
+  margin-top: 250px;
+  font-size: 200px;
+  padding: 50px;
+}
+
+.glow {
+  font-size: 80px;
+  color: rgb(75, 190, 255);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ed1a1a, 0 0 20px #a70a0a, 0 0 30px #ff0101, 0 0 40px #ff0101, 0 0 50px #ff0101, 0 0 60px #ff0101, 0 0 70px #ff0101;
+  }
+  to {
+    text-shadow: 0 0 20px #cd1010, 0 0 30px #714dff, 0 0 40px #ff0101, 0 0 50px #714dff, 0 0 60px #ff0101, 0 0 70px #714dff, 0 0 80px #ff0101;
+  }
+}
+
+h3 {
+  font-size: x-large;
+  text-align: center;
+  color: #eb3b3b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

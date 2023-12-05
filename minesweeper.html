@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/minesweeper.css">
+    <script src="JavaScript/minesweeper.js"></script>
+</head>
+<body>
+    <div id="returnButton">
+        <a href="index.html" class="button">tilbake</a>
+    </div>
+    <h1>Mines: <span id="mines-count">0</span></h1>
+    <div id="board"></div>
+    <br>
+    <button id="flag-button">🚩</button>
+
+    <script>
+        // If you want to initialize the Mines count dynamically, you can set it here.
+        // For example, document.getElementById("mines-count").innerText = minesCount;
+        window.onload = function() {
+            startGame();
+        };
+    </script>
+</body>
+</html>
